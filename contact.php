@@ -16,7 +16,7 @@ if (empty($firstname) || empty($lastname) || empty($email) || empty($subject) ||
 }
 else 
 {
-	mail("harshgujral84035@gmail.com","kalia coaching classes",$message,"From :$firstname,$lastname,$subject,$message<$email>");
+	mail("rishabhkalia97@gmail.com","kalia coaching classes",$message,"From :$firstname,$lastname,$subject,$message<$email>");
 	echo "<script type='text/javascript'>alert('your message sent successfully');
 	window.history.log(-1);
 	</script>";
